@@ -59,9 +59,6 @@ router.post("/signin", async (req, res) => {
   }
 });
 
-router.get("/", (req, res) => {
-  res.send("D");
-});
 // Doctor Search Page
 router.get("/doctor", authenticate, (req, res) => {
   res.send(req.rootUser);
