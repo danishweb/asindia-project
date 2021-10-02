@@ -1,0 +1,9 @@
+.signup {
+  display: grid;
+  place-items: center;
+}
+
+.signup-container {
+  height: auto !important;
+  margin-bottom: 2rem !important;
+}

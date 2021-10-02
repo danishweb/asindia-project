@@ -1,0 +1,17 @@
+.searchbar {
+  display: grid;
+  width: 100vw;
+  place-items: center;
+}
+
+.card-body {
+  display: grid;
+  place-items: center;
+}
+.doctor-card {
+  transition: transform .3s ease;
+}
+.doctor-card:hover {
+  transform: scale(1.04);
+  transition: transform .3s ease;
+}
